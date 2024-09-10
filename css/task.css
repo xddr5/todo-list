@@ -1,0 +1,38 @@
+ul > h3 { 
+    width: 100px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
+.backlog {
+    width: 120px; 
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(245, 0, 0);
+}
+
+.in-process { 
+    width: 120px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 245);
+}
+
+.done { 
+    width: 120px; 
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 245, 0);
+}
+
+.trashcan { 
+    width: 120px; 
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(245, 245, 0);
+}
