@@ -1,0 +1,17 @@
+body { 
+    margin: 0;
+    background-color: #d1d8e0;
+}
+header { 
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: rgb(47,128,237);
+}
+
+header h1 { 
+    padding-left: 50px;
+    font-size: 3rem;
+    color: white;
+    margin-top: 0;
+}
