@@ -1,0 +1,42 @@
+.list { 
+    display: flex;
+}
+
+li { 
+    display:flex;
+    width: 250px;
+    height: 50px;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: white;
+    font-size: 1rem;
+    align-items: center;
+    
+}
+  
+.backlog-list > li { 
+    border-left: 10px solid rgb(245, 0, 0);
+    border-radius: 7px;
+}
+
+.in-process-list > li { 
+    border-left: 10px solid rgb(0, 0, 245);
+    border-radius: 7px;
+}
+
+.done-list > li { 
+    border-left: 10px solid rgb(0, 245, 0);
+    border-radius: 7px;
+}
+
+.trashcan-list > li { 
+    border-left: 10px solid rgb(245, 245, 0);
+    border-radius: 7px;
+}
+
+ul { 
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
