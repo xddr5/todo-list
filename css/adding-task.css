@@ -1,0 +1,43 @@
+.adding-task > h2 { 
+    margin-left: 25px;
+    padding-top: 5px;
+    font-size: 2.25rem;
+}
+
+.input-text { 
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    background: transparent;
+}
+    
+.input-button:hover { 
+    cursor: pointer;
+}
+
+.input-button { 
+    width: 180px;
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 7px;
+    border:none;
+    background-color: rgb(47,128,237);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.adding-task { 
+    width: 500px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 7px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+}
