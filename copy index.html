@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-list</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/adding-task.css">
+    <link rel="stylesheet" type="text/css" href="css/clear-button.css">
+    <link rel="stylesheet" type="text/css" href="css/tasks-area.css">
+    <link rel="stylesheet" type="text/css" href="css/task.css">
+</head>
+<body> 
+    <header class="page-header">
+        <h1>Список задач</h1>
+    </header>
+    <main class="page-main">
+        <form class="adding-task" aria-label="Форма добавления задачи">
+            <h2>Новая задача</h2>
+            <label for="name"></label>
+            <input type="text" id="name" class="input-text" placeholder="Название задачи">
+            <button class="input-button">Добавить</button>
+        </form>
+        
+        <section class="list">
+            <ul class="backlog-list">
+                <h3 class="backlog">Бэклог</h3>
+                <li>Выучить JS</li>
+                <li>Выучить React</li>
+                <li>Сделать домашку</li>
+            </ul>
+            <ul class="in-process-list">
+                <h3 class="in-process">В процессе</h3>
+                <li>Выпить смузи</li>
+                <li>Попить воды</li>
+            </ul>
+            <ul class="done-list">   
+                <h3 class="done">Готово</h3>
+                <li>Позвонить маме</li>
+                <li>Погладить кота</li>
+            </ul>
+            <ul class="trashcan-list">
+                <h3 class="trashcan">Корзина</h3>
+                <li>Сходить погулять</li>
+                <li>Прочитать войну и Мир</li>
+                <button class="clear-button">Очистить</button>
+            </ul>
+    </section>
+    </main>
+</body>
+</html>
