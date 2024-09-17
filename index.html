@@ -11,42 +11,17 @@
     <link rel="stylesheet" type="text/css" href="css/tasks-area.css">
     <link rel="stylesheet" type="text/css" href="css/task.css">
 </head>
-<body> 
-    <header class="page-header">
-        <h1>Список задач</h1>
-    </header>
-    <main class="page-main">
-        <section class="adding-task">
-            <h2>Новая задача</h2>
-            <label for="name"></label>
-            <input type="text" id="name" class="input-text" placeholder="Название задачи">
-            <button class="input-button">Добавить</button>
-        </section>
-        
+<body class="board-app">
+
+    <main class="board-app__main">
+        <form class="adding-task">
+  
+        </form>
         <section class="list">
-            <ul class="backlog-list">
-                <h3 class="backlog">Бэклог</h3>
-                <li>Выучить JS</li>
-                <li>Выучить React</li>
-                <li>Сделать домашку</li>
-            </ul>
-            <ul class="in-process-list">
-                <h3 class="in-process">В процессе</h3>
-                <li>Выпить смузи</li>
-                <li>Попить воды</li>
-            </ul>
-            <ul class="done-list">   
-                <h3 class="done">Готово</h3>
-                <li>Позвонить маме</li>
-                <li>Погладить кота</li>
-            </ul>
-            <ul class="trashcan-list">
-                <h3 class="trashcan">Корзина</h3>
-                <li>Сходить погулять</li>
-                <li>Прочитать войну и Мир</li>
-                <button class="clear-button">Очистить</button>
-            </ul>
-    </section>
+            
+  
+        </section>
     </main>
-</body>
+    <script src="src/main.js" type="module"></script>
+</body> 
 </html>
